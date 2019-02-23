@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D9173952221B50D005771F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9173942221B50D005771F8 /* AppDelegate.m */; };
+		0D91739A2221B50E005771F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D9173992221B50E005771F8 /* Assets.xcassets */; };
+		0D91739D2221B50E005771F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D91739B2221B50E005771F8 /* Main.storyboard */; };
+		0D9173A02221B50E005771F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D91739F2221B50E005771F8 /* main.m */; };
+		0D9173AC2221B646005771F8 /* JZTransparentWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9173AB2221B646005771F8 /* JZTransparentWindow.m */; };
+		0D9173AF2221B65E005771F8 /* JZTransparentWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9173AE2221B65E005771F8 /* JZTransparentWindowController.m */; };
+		0D9173B22221BB94005771F8 /* JZScreenSaverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9173B12221BB94005771F8 /* JZScreenSaverViewController.m */; };
+		0D9173B52221BBD8005771F8 /* JZScreenSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9173B42221BBD8005771F8 /* JZScreenSaverView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D9173902221B50D005771F8 /* DVD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DVD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D9173932221B50D005771F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0D9173942221B50D005771F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0D9173992221B50E005771F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D91739C2221B50E005771F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D91739E2221B50E005771F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D91739F2221B50E005771F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D9173A12221B50E005771F8 /* DVD.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DVD.entitlements; sourceTree = "<group>"; };
+		0D9173AA2221B646005771F8 /* JZTransparentWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZTransparentWindow.h; sourceTree = "<group>"; };
+		0D9173AB2221B646005771F8 /* JZTransparentWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZTransparentWindow.m; sourceTree = "<group>"; };
+		0D9173AD2221B65E005771F8 /* JZTransparentWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZTransparentWindowController.h; sourceTree = "<group>"; };
+		0D9173AE2221B65E005771F8 /* JZTransparentWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZTransparentWindowController.m; sourceTree = "<group>"; };
+		0D9173B02221BB94005771F8 /* JZScreenSaverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZScreenSaverViewController.h; sourceTree = "<group>"; };
+		0D9173B12221BB94005771F8 /* JZScreenSaverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZScreenSaverViewController.m; sourceTree = "<group>"; };
+		0D9173B32221BBD8005771F8 /* JZScreenSaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZScreenSaverView.h; sourceTree = "<group>"; };
+		0D9173B42221BBD8005771F8 /* JZScreenSaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZScreenSaverView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D91738D2221B50D005771F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D9173872221B50D005771F8 = {
+			isa = PBXGroup;
+			children = (
+				0D9173922221B50D005771F8 /* DVD */,
+				0D9173912221B50D005771F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D9173912221B50D005771F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D9173902221B50D005771F8 /* DVD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D9173922221B50D005771F8 /* DVD */ = {
+			isa = PBXGroup;
+			children = (
+				0D9173932221B50D005771F8 /* AppDelegate.h */,
+				0D9173942221B50D005771F8 /* AppDelegate.m */,
+				0D9173AA2221B646005771F8 /* JZTransparentWindow.h */,
+				0D9173AB2221B646005771F8 /* JZTransparentWindow.m */,
+				0D9173AD2221B65E005771F8 /* JZTransparentWindowController.h */,
+				0D9173AE2221B65E005771F8 /* JZTransparentWindowController.m */,
+				0D9173B02221BB94005771F8 /* JZScreenSaverViewController.h */,
+				0D9173B12221BB94005771F8 /* JZScreenSaverViewController.m */,
+				0D9173B32221BBD8005771F8 /* JZScreenSaverView.h */,
+				0D9173B42221BBD8005771F8 /* JZScreenSaverView.m */,
+				0D9173992221B50E005771F8 /* Assets.xcassets */,
+				0D91739B2221B50E005771F8 /* Main.storyboard */,
+				0D91739E2221B50E005771F8 /* Info.plist */,
+				0D91739F2221B50E005771F8 /* main.m */,
+				0D9173A12221B50E005771F8 /* DVD.entitlements */,
+			);
+			path = DVD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D91738F2221B50D005771F8 /* DVD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D9173A42221B50E005771F8 /* Build configuration list for PBXNativeTarget "DVD" */;
+			buildPhases = (
+				0D91738C2221B50D005771F8 /* Sources */,
+				0D91738D2221B50D005771F8 /* Frameworks */,
+				0D91738E2221B50D005771F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DVD;
+			productName = DVD;
+			productReference = 0D9173902221B50D005771F8 /* DVD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D9173882221B50D005771F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "ZHENG HAOTIAN";
+				TargetAttributes = {
+					0D91738F2221B50D005771F8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 0D91738B2221B50D005771F8 /* Build configuration list for PBXProject "DVD" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D9173872221B50D005771F8;
+			productRefGroup = 0D9173912221B50D005771F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D91738F2221B50D005771F8 /* DVD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D91738E2221B50D005771F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D91739A2221B50E005771F8 /* Assets.xcassets in Resources */,
+				0D91739D2221B50E005771F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D91738C2221B50D005771F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D9173AF2221B65E005771F8 /* JZTransparentWindowController.m in Sources */,
+				0D9173A02221B50E005771F8 /* main.m in Sources */,
+				0D9173AC2221B646005771F8 /* JZTransparentWindow.m in Sources */,
+				0D9173952221B50D005771F8 /* AppDelegate.m in Sources */,
+				0D9173B52221BBD8005771F8 /* JZScreenSaverView.m in Sources */,
+				0D9173B22221BB94005771F8 /* JZScreenSaverViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0D91739B2221B50E005771F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D91739C2221B50E005771F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D9173A22221B50E005771F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0D9173A32221B50E005771F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0D9173A52221B50E005771F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DVD/DVD.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9QJ8M25J77;
+				INFOPLIST_FILE = DVD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JustZht.DVD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0D9173A62221B50E005771F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DVD/DVD.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9QJ8M25J77;
+				INFOPLIST_FILE = DVD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JustZht.DVD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D91738B2221B50D005771F8 /* Build configuration list for PBXProject "DVD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D9173A22221B50E005771F8 /* Debug */,
+				0D9173A32221B50E005771F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D9173A42221B50E005771F8 /* Build configuration list for PBXNativeTarget "DVD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D9173A52221B50E005771F8 /* Debug */,
+				0D9173A62221B50E005771F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D9173882221B50D005771F8 /* Project object */;
+}
